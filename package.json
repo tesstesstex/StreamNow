@@ -1,0 +1,33 @@
+{
+  "name": "streamnow",
+  "description": "get the list of active live on your subscribing channels",
+  "repository": "tesstesstex/StreamNow",
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "**/*.js",
+    "!test/"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "@google-cloud/local-auth": "^1.0.0",
+    "@googleapis/docs": "^0.2.0",
+    "express": "^4.17.1",
+    "googleapis": "^73.0.0",
+    "nconf": "^0.11.0",
+    "open": "^8.0.0",
+    "server-destroy": "^1.0.1",
+    "uuid": "^8.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "execa": "^5.0.0",
+    "mocha": "^8.0.0",
+    "nock": "^13.0.0",
+    "proxyquire": "^2.1.3",
+    "typescript": "~4.2.3"
+  }
+}
