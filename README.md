@@ -2,7 +2,7 @@
 You can get the list of active lives on your subscribing channels!  
 You need to take care your quota of Google Cloud Platform.  
 
-This tool is using googleapis/google-api-nodejs-client.
+This tool is using [googleapis/google-api-nodejs-client](https://github.com/googleapis/google-api-nodejs-client).
 
 ## Getting Started
 
