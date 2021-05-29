@@ -1,5 +1,7 @@
 .DS_Store
 
+yarn-error.log
+
 node_modules
 oauth2.keys.json
 *.keys.json
